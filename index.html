@@ -1,45 +1,53 @@
-
-<!DOCTYPE html >
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/960.css" rel="stylesheet" type="text/css" />
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>  -->
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/Clarendon_LT_Std_700.font.js"></script>
-<script type="text/javascript">
-	Cufon.replace('h1,h3', {fontFamily: 'Clarendon LT Std', hover:true})
-</script>
-</head>
-<body>
-<div id="shim"></div>
-<div id="content">
-	<div class="logo_box"><h1>The<br/>Roots<br/>Society</h1></div>          
-	<div class="main_box">
-		<h2>Our website is getting refurbished.<br/><span>In the mean time connect with us with the information below</span></h2>
-		
-		<ul class="info">
-			<li>
-				<h3>P</h3>
-				<p>+91-96547-73334<br/>+91-99539-09203</p>
-			</li>
-			<li>
-				<h3>A</h3>
-				<p>prabhjot@therootssociety.com<br/>aditya@therootssociety.com</p>
-			</li>
-			<!-- <li>
-				<h3>S</h3>
-				<p class="social">
-					<a href="#" class="tw"></a>
-					<a href="#" class="fb"></a>				
-					<a href="#" class="li"></a>
-				</p>
-			</li> -->
-		</ul>
-	</div>
-</div>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 
+	<title>The Roots Society</title>
+
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+
+	<!-- simple style -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h1>The Roots Society</h1>
+					<h2 class="subtitle">We're working hard to improve our website</h2>
+
+
+
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 footer navbar-fixed-bottom">
+					<p class="copyright">Copyright &copy; 2016. All rights reserved by The Roots Society. </p>
+
+				</div>
+			</div>		
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript">
+	$('#countdown').countdown('2015/01/01', function(event) {
+		$(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
+	});
+
+	</script>
 </body>
 </html>
