@@ -1,53 +1,105 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+			
+	<!-- TITLE -->
+	<title>THE ROOTS SOCIETY</title>
+		
+	<!-- DESCRIPTION -->		
+	<meta name="description" content="The Roots Society" />
+	<meta name="keywords"  content="Event, Coming Soon, Concert, Conference, Counter, Exhibition, Festival, Landing Page, Music, One Page, Registration Form, Seminar, Subscription, Mailchimp" />
+	<meta name="author" content="TEKSAVANT" />
 
-	<title>The Roots Society</title>
-
-	<!-- Bootstrap -->
-	<link href="assets/css/bootstrap.css" rel="stylesheet">
-	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
-
-	<!-- simple style -->
-	<link href="assets/css/style.css" rel="stylesheet">
-
-
-</head>
-
+	<!-- GOOGLE FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- STYLESHEETS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/jquery.countdown.css" rel="stylesheet" type="text/css" >
+	<link href="assets/css/panel.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	
+		
+<script src='/google_analytics_auto.js'></script></head>
 <body>
 
-	<div id="wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12">
-					<h1>The Roots Society</h1>
-					<h2 class="subtitle">We're working hard to improve our website</h2>
-
-
-
-				</div>
-
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 footer navbar-fixed-bottom">
-					<p class="copyright">Copyright &copy; 2016. All rights reserved by The Roots Society. </p>
-
-				</div>
-			</div>		
+	<!-- PRELOADER -->
+	<div class="preloader">
+		<div class="status"></div>
+	</div>
+	<!-- /PRELOADER -->
+	
+<!-- WRAPER -->	
+<div class="wraper">
+	<div class="overlay"></div>
+	<!-- /Youtube Background-->
+					<div id="background">
+						<div id="background-video"></div>
+					</div>	
+				<!-- /Youtube Background -->
+	<!-- TIMER -->	
+	<div class=" align-center" >
+		
+		<div class="heading">
+			<img class="logo" alt="logo" src="assets/img/logo.png" />
+			
+			<h1 class="col-lg-10 align-center counter-logo"><span>We are coming soon</span></h1>
+			<hr id="title_hr">
+			<!-- COUNTDOWN	-->
+			<div id="defaultCountdown"></div>
+			<div class="clearfix"></div>
+			<!-- /COUNTDOWN	-->
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.countdown.min.js"></script>
-	<script type="text/javascript">
-	$('#countdown').countdown('2015/01/01', function(event) {
-		$(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
-	});
+	<!-- /TIMER -->	
+ <!--SUBSCRIBE FORM -->
+			<!--<div class="notify-by-email align-center">
+				<div class="row form-notify">
+				<h2>notify Me</h2>
+					<form action="notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-3 col-md-4 col-sm-6 col-xs-10">
+						<div class="input-group">
+						  <input type="text" class="form-control email-add" name="email" placeholder="Email Address">
+						  <span class="input-group-btn " >
+							<button class="btn btn-default notify-button"><i class="icon-arrow right"><span></span></i></button>
+						  </span>
+						</div>
+					</form>
+				</div>
+			</div>-->
+			<!-- /SUBSCRIBE FORM 	-->
+	<!-- HOME -->
+	
+	
+<!-- WRAPER -->
+	
+<!-- SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
-	</script>
+<!-- SUBSCRIPTION FORM  -->
+<script type="text/javascript" src="assets/js/notifyMe.js"></script>
+<script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="assets/js/jquery.plugin.js"></script> 
+
+<!--COUNTER-->
+<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+
+<!-- YOUTUBE  -->
+<script type="text/javascript" src="assets/js/jquery.tubular.1.0.js"></script>
+
+<!-- INITIALIZATION  -->
+<script type="text/javascript" src="assets/js/init.js"></script>
+
 </body>
+
 </html>
